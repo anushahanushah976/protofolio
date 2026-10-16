@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anusha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Anusha<span>.</span></h2>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menuBtn"
+                    aria-label="Toggle navigation">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+                <h1>Hello, I'm <span>Anusha</span></h1>
+                <h2>Information Science Student</h2>
+                <p>
+                    I am passionate about web development, programming,
+                    and creating useful digital experiences.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-card">
+                <div class="about-icon">👩‍💻</div>
+                <div>
+                    <h3>Who Am I?</h3>
+                    <p>
+                        I am an Information Science and Engineering student
+                        interested in software development and technology.
+                        I enjoy learning new skills, solving problems,
+                        and building creative websites.
+                    </p>
+                    <p>
+                        My goal is to become a skilled developer and work
+                        on projects that solve real-world problems.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section alternate">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <p class="section-subtitle">Technologies I am learning and using</p>
+
+            <div class="skills-grid">
+                <div class="skill-card">💻 <h3>HTML</h3><p>Web Structure</p></div>
+                <div class="skill-card">🎨 <h3>CSS</h3><p>Web Design</p></div>
+                <div class="skill-card">⚡ <h3>JavaScript</h3><p>Interactivity</p></div>
+                <div class="skill-card">🔧 <h3>C Programming</h3><p>Problem Solving</p></div>
+                <div class="skill-card">☕ <h3>Java</h3><p>Programming</p></div>
+                <div class="skill-card">🗄️ <h3>SQL</h3><p>Database Basics</p></div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <p class="section-subtitle">Some projects I have worked on</p>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-icon">🖼️</div>
+                    <h3>Image Gallery</h3>
+                    <p>
+                        A responsive image gallery website with a clean
+                        layout and interactive image previews.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="https://anushahanushah976.github.io/image-gallery/"
+                       target="_blank" rel="noopener noreferrer"
+                       class="project-link">View Project ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">🧮</div>
+                    <h3>Calculator</h3>
+                    <p>
+                        A simple calculator that performs basic arithmetic
+                        operations using an interactive interface.
+                    </p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                    </div>
+                    <a href="#contact" class="project-link">Ask Me About It ↗</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon">📺</div>
+                    <h3>Fluxora</h3>
+                    <p>
+                        A video streaming optimization project focused on
+                        adaptive buffering and improving playback.
+                    </p>
+                    <div class="tags">
+                        <span>JavaScript</span><span>Node.js</span><span>MongoDB</span>
+                    </div>
+                    <a href="#contact" class="project-link">Learn More ↗</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="resume" class="section alternate">
+            <h2 class="section-title">My <span>Resume</span></h2>
+            <div class="resume-card">
+                <div class="resume-icon">📄</div>
+                <h3>Want to know more about me?</h3>
+                <p>View or download my resume to learn about my education,
+                   skills, projects, and experience.</p>
+
+                <a href="resume.pdf" class="btn" download>
+                    Download Resume ↓
+                </a>
+                <p class="small-note">
+                    Add your resume PDF to this folder and name it resume.pdf.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <p class="section-subtitle">
+                Have a project idea? Feel free to get in touch.
+            </p>
+
+            <div class="contact-card">
+                <p>📧 Email: <a href="mailto:yourmail@example.com">
+                    yourmail@example.com</a></p>
+                <p>💼 LinkedIn:
+                    <a href="https://www.linkedin.com/" target="_blank"
+                       rel="noopener noreferrer">Visit my LinkedIn</a></p>
+                <p>🐙 GitHub:
+                    <a href="https://github.com/" target="_blank"
+                       rel="noopener noreferrer">Visit my GitHub</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> Anusha. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <button id="topBtn" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
